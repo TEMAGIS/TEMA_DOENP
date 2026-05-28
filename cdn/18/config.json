@@ -152,7 +152,8 @@
                 }
               }
             }
-          }
+          },
+          "isPending": true
         }
       },
       "label": "Map FixedLayout"
@@ -474,6 +475,12 @@
           "widgetId": "widget_64",
           "bbox": {},
           "setting": {}
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_68",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -483,7 +490,8 @@
         "1",
         "4",
         "2",
-        "3"
+        "3",
+        "5"
       ]
     },
     "layout_92": {
@@ -1836,7 +1844,12 @@
           "openStarts": [],
           "displayType": "STACK",
           "vertical": false,
-          "size": {},
+          "size": {
+            "widget_68": {
+              "width": 363,
+              "height": 218
+            }
+          },
           "alignment": "end",
           "arrangement": "floating"
         },
@@ -3350,6 +3363,54 @@
           "fillType": "fill"
         }
       }
+    },
+    "widget_68": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 1C4.15 1 1 4.15 1 8s3.15 7 7 7 7-3.15 7-7-3.15-7-7-7m1.167 11.667H6.834v-2.334h2.333zm-2.333-4.5V3.333h2.333v4.834z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "WarningCircleFilled",
+          "color": "",
+          "originalName": "filled/suggested/warning-circle.svg",
+          "path": [
+            "suggestion",
+            "WarningCircleFilled"
+          ],
+          "isUploaded": false,
+          "inlineSvg": true
+        }
+      },
+      "label": "For Exercise",
+      "config": {
+        "text": "<p><strong style=\"font-size: 26px;\">Exercise </strong><span style=\"font-size: 26px; color: var(--danger);\">ORNL ECL: </span><strong style=\"color: var(--danger); font-size: 26px;\"><exp data-uniqueid=\"ab2cd9e0_c7d2_09f8_e9c5_25e7464d5106\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{ornl_ecldeclared}﻿﻿﻿﻿﻿</span>﻿</exp>, </strong><span style=\"color: var(--danger); font-size: 26px;\">Y-12 ECL: </span><strong style=\"color: var(--danger); font-size: 26px;\"><exp data-uniqueid=\"cb1ed5f7_831b_f880_24b6_1f4eda501324\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7By12_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7By12_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22y12_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{y12_ecldeclared}﻿﻿﻿﻿﻿</span>﻿</exp>, </strong><span style=\"color: var(--danger); font-size: 26px;\">SEOC AL:</span><strong style=\"color: var(--danger); font-size: 26px;\"> <exp data-uniqueid=\"142b3a1d_462f_2927_114c_4926793f72a1\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{seocactivationlvl}﻿﻿﻿﻿﻿</span>﻿</exp> </strong><strong style=\"font-size: 26px;\">Exercise</strong></p>",
+        "style": {
+          "wrap": true
+        },
+        "tooltip": {
+          "name": "",
+          "parts": [
+            {
+              "type": "STRING",
+              "exp": "\"\""
+            }
+          ]
+        }
+      },
+      "id": "widget_68",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-0",
+          "mainDataSourceId": "dataSource_9-0",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "ornl_ecldeclared",
+            "y12_ecldeclared",
+            "seocactivationlvl"
+          ]
+        }
+      ]
     }
   },
   "customTheme": {
@@ -3526,7 +3587,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1779980600773,
+  "publishTimestamp": 1779983443490,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -3547,7 +3608,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1773768682570.png"
   },
-  "timestamp": 1779980584736,
+  "timestamp": 1779983369587,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
