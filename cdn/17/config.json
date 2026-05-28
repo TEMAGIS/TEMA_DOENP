@@ -129,11 +129,11 @@
           "widgetId": "widget_67",
           "bbox": {
             "left": "50%",
-            "right": "30.0%",
-            "top": "0%",
-            "bottom": "51.8%",
-            "width": "40.0%",
-            "height": "6.00%"
+            "right": "35.0%",
+            "top": "0.0%",
+            "bottom": "49.0%",
+            "width": "30.0%",
+            "height": "8.00%"
           },
           "setting": {
             "autoProps": {
@@ -3310,7 +3310,7 @@
       "version": "1.18.0",
       "label": "For EX",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 34px;\">Exercise</strong><span style=\"font-size: 34px;\"> -</span><span style=\"font-size: 34px; color: var(--danger);\"> ORNL ECL:</span><strong style=\"font-size: 34px; color: var(--danger);\"> <exp data-uniqueid=\"86b8c636_b929_7917_238c_c15ed444772f\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{ornl_ecldeclared}</span>﻿</exp>&nbsp;&nbsp;</strong><span style=\"color: var(--danger); font-size: 34px;\">, SEOC AL:</span><strong style=\"color: var(--danger); font-size: 34px;\"> <exp data-uniqueid=\"4553ba8e_a565_7453_20e9_3d4224333afa\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{seocactivationlvl}</span>﻿</exp>&nbsp;&nbsp;</strong><span style=\"color: var(--danger); font-size: 34px;\">&nbsp;</span><span style=\"font-size: 34px;\">- </span><strong style=\"font-size: 34px;\">Exercise</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 34px;\">Exercise</strong><span style=\"font-size: 34px;\"> -</span><span style=\"font-size: 34px; color: var(--danger);\"> ORNL ECL:</span><strong style=\"font-size: 34px; color: var(--danger);\"> <exp data-uniqueid=\"86b8c636_b929_7917_238c_c15ed444772f\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{ornl_ecldeclared}﻿</span>﻿</exp></strong><span style=\"color: var(--danger); font-size: 34px;\">, SEOC AL:</span><strong style=\"color: var(--danger); font-size: 34px;\"> <exp data-uniqueid=\"4553ba8e_a565_7453_20e9_3d4224333afa\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{seocactivationlvl}﻿</span>﻿</exp>&nbsp;&nbsp;</strong><span style=\"font-size: 34px; color: var(--danger);\">&nbsp;</span><span style=\"font-size: 34px;\">- </span><strong style=\"font-size: 34px;\">Exercise</strong></p>",
         "style": {
           "wrap": true,
           "enableDynamicStyle": false
@@ -3526,7 +3526,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1779979984572,
+  "publishTimestamp": 1779980600773,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -3547,7 +3547,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1773768682570.png"
   },
-  "timestamp": 1779979957372,
+  "timestamp": 1779980584736,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
