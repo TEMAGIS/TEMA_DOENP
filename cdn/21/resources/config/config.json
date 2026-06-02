@@ -1470,6 +1470,7 @@
       "version": "1.18.0",
       "config": {
         "text": "<p><strong style=\"color: var(--light); font-size: 20px;\">﻿TEMA DOENP</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
         "style": {
           "wrap": false
         }
@@ -2181,7 +2182,8 @@
       "uri": "widgets/common/text/",
       "version": "1.18.0",
       "config": {
-        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>"
+        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>",
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_57",
       "label": "Text 4"
@@ -3331,6 +3333,7 @@
       "label": "For EX",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 34px;\">Exercise</strong><span style=\"font-size: 34px;\"> -</span><span style=\"font-size: 34px; color: var(--danger);\"> ORNL ECL:</span><strong style=\"font-size: 34px; color: var(--danger);\"> <exp data-uniqueid=\"86b8c636_b929_7917_238c_c15ed444772f\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{ornl_ecldeclared}﻿</span>﻿</exp></strong><span style=\"color: var(--danger); font-size: 34px;\">, SEOC AL:</span><strong style=\"color: var(--danger); font-size: 34px;\"> <exp data-uniqueid=\"4553ba8e_a565_7453_20e9_3d4224333afa\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{seocactivationlvl}﻿</span>﻿</exp>&nbsp;&nbsp;</strong><span style=\"font-size: 34px; color: var(--danger);\">&nbsp;</span><span style=\"font-size: 34px;\">- </span><strong style=\"font-size: 34px;\">Exercise</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "enableDynamicStyle": false
@@ -3347,23 +3350,7 @@
       },
       "id": "widget_67",
       "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_9-0",
-          "mainDataSourceId": "dataSource_9-0",
-          "rootDataSourceId": "dataSource_9",
-          "fields": [
-            "ornl_ecldeclared",
-            "seocactivationlvl"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_9-0-selection",
-          "mainDataSourceId": "dataSource_9-0",
-          "rootDataSourceId": "dataSource_9",
-          "dataViewId": "selection"
-        }
-      ],
+      "useDataSources": [],
       "style": {
         "background": {
           "color": "var(--primary-100)",
@@ -3390,21 +3377,139 @@
       },
       "label": "For Exercise",
       "config": {
-        "text": "<p><strong style=\"font-size: 26px;\">Exercise </strong><span style=\"font-size: 26px; color: var(--danger);\">ORNL ECL: </span><strong style=\"font-size: 26px; color: var(--danger);\"><em><exp data-uniqueid=\"ab2cd9e0_c7d2_09f8_e9c5_25e7464d5106\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{ornl_ecldeclared}﻿﻿﻿﻿﻿﻿</span>﻿</exp></em>, </strong><span style=\"font-size: 26px; color: var(--danger);\">Y-12 ECL: </span><strong style=\"font-size: 26px; color: var(--danger);\"><em><exp data-uniqueid=\"cb1ed5f7_831b_f880_24b6_1f4eda501324\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7By12_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7By12_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22y12_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{y12_ecldeclared}﻿﻿﻿﻿﻿﻿</span>﻿</exp></em>, </strong><span style=\"font-size: 26px; color: var(--danger);\">SEOC AL:</span><strong style=\"font-size: 26px; color: var(--danger);\"> <em><exp data-uniqueid=\"142b3a1d_462f_2927_114c_4926793f72a1\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{seocactivationlvl}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </em></strong><strong style=\"font-size: 26px;\">Exercise</strong></p>",
+        "text": "<p><strong style=\"font-size: 26px;\">Exercise   </strong><span style=\"font-size: 26px; color: var(--dark);\">ORNL ECL: </span><strong style=\"font-size: 26px; color: var(--dark);\"><exp data-uniqueid=\"9bf3fd42_9c4d_756c_c0eb_36bd89afc7b9\" data-dsid=\"dataSource_8-19e886d5cde-layer-80\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-19e886d5cde-layer-80%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{ornl_ecldeclared}</span>﻿</exp>&nbsp;, </strong><span style=\"font-size: 26px; color: var(--dark);\">Y-12 ECL: </span><strong style=\"font-size: 26px; color: var(--dark);\"><exp data-uniqueid=\"b1acba29_3d4a_a756_9358_6fa9662afd45\" data-dsid=\"dataSource_8-19e886d5cde-layer-80\" data-expression=\"%7B%22name%22%3A%22%7By12_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7By12_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-19e886d5cde-layer-80%22%2C%22jimuFieldName%22%3A%22y12_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{y12_ecldeclared}</span>﻿</exp>&nbsp;, </strong><span style=\"font-size: 26px; color: var(--dark);\">SEOC AL:</span><strong style=\"font-size: 26px; color: var(--dark);\"> <em><exp data-uniqueid=\"25789f79_ef6a_d422_654c_deb7c169ebfd\" data-dsid=\"dataSource_8-19e886d5cde-layer-80\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-19e886d5cde-layer-80%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{seocactivationlvl}</span>﻿</exp>  &nbsp;</em></strong><strong style=\"font-size: 26px;\">Exercise</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "enableDynamicStyle": true,
           "dynamicStyleConfig": {
             "sourceType": "CONDITION",
+            "arcadeConfig": null,
             "conditionConfig": {
               "refValueInfo": {
-                "refValueSourceType": "IMPORT_FROM_DYNAMIC_CONTENT",
-                "expression": null,
-                "expressionReturnType": null
+                "refValueSourceType": "CUSTOM_ATTRIBUTE",
+                "expression": {
+                  "name": "{seocactivationlvl}",
+                  "parts": [
+                    {
+                      "type": "FIELD",
+                      "exp": "{seocactivationlvl}",
+                      "dataSourceId": "dataSource_8-19e886d5cde-layer-80",
+                      "jimuFieldName": "seocactivationlvl",
+                      "isFromRepeatedDataSourceContext": false
+                    }
+                  ]
+                },
+                "expressionReturnType": "STRING"
               },
-              "items": []
-            },
-            "arcadeConfig": null
+              "items": [
+                {
+                  "id": 1,
+                  "condition": {
+                    "operator": "STRING_OPERATOR_IS",
+                    "sourceType": "USER_INPUT",
+                    "valueOptions": {
+                      "value": [
+                        {
+                          "value": "5 Normal",
+                          "label": "5 Normal"
+                        }
+                      ],
+                      "expression": null
+                    }
+                  },
+                  "style": null
+                },
+                {
+                  "id": 2,
+                  "condition": {
+                    "operator": "STRING_OPERATOR_IS",
+                    "sourceType": "USER_INPUT",
+                    "valueOptions": {
+                      "value": [
+                        {
+                          "value": "4 Increased Monitoring",
+                          "label": "4 Increased Monitoring"
+                        }
+                      ],
+                      "expression": null
+                    }
+                  },
+                  "style": {
+                    "background": {
+                      "color": "var(--warning)",
+                      "fillType": "fill"
+                    }
+                  }
+                },
+                {
+                  "id": 3,
+                  "condition": {
+                    "operator": "STRING_OPERATOR_IS",
+                    "sourceType": "USER_INPUT",
+                    "valueOptions": {
+                      "value": [
+                        {
+                          "value": "3 Limited",
+                          "label": "3 Limited"
+                        }
+                      ],
+                      "expression": null
+                    }
+                  },
+                  "style": {
+                    "background": {
+                      "color": "var(--danger)",
+                      "fillType": "fill"
+                    }
+                  }
+                },
+                {
+                  "id": 4,
+                  "condition": {
+                    "operator": "STRING_OPERATOR_IS",
+                    "sourceType": "USER_INPUT",
+                    "valueOptions": {
+                      "value": [
+                        {
+                          "value": "2 Full",
+                          "label": "2 Full"
+                        }
+                      ],
+                      "expression": null
+                    }
+                  },
+                  "style": {
+                    "background": {
+                      "color": "var(--danger)",
+                      "fillType": "fill"
+                    }
+                  }
+                },
+                {
+                  "id": 5,
+                  "condition": {
+                    "operator": "STRING_OPERATOR_IS",
+                    "sourceType": "USER_INPUT",
+                    "valueOptions": {
+                      "value": [
+                        {
+                          "value": "1 Catastrophic",
+                          "label": "1 Catastrophic"
+                        }
+                      ],
+                      "expression": null
+                    }
+                  },
+                  "style": {
+                    "background": {
+                      "color": "var(--danger)",
+                      "fillType": "fill"
+                    }
+                  }
+                }
+              ]
+            }
           }
         },
         "tooltip": {
@@ -3421,9 +3526,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_9-0",
-          "mainDataSourceId": "dataSource_9-0",
-          "rootDataSourceId": "dataSource_9",
+          "dataSourceId": "dataSource_8-19e886d5cde-layer-80",
+          "mainDataSourceId": "dataSource_8-19e886d5cde-layer-80",
+          "rootDataSourceId": "dataSource_8",
           "fields": [
             "ornl_ecldeclared",
             "y12_ecldeclared",
@@ -3607,7 +3712,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1780402745547,
+  "publishTimestamp": 1750648177966,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -3619,16 +3724,9 @@
         "isUploaded": true,
         "inlineSvg": false
       }
-    },
-    "isWebTier": false,
-    "clientId": "5Pykj9UAGYURfNuQ",
-    "express": false,
-    "title": "TEMA_DOENP",
-    "description": "DOENP GIS Viewer",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1773768682570.png"
+    }
   },
-  "timestamp": 1780402741091,
+  "timestamp": 1780407460194,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -3642,14 +3740,6 @@
       "sourceLabel": "DOENP_ExB",
       "itemId": "b2f1b7cb62194021b8b14b01ea002cf0",
       "portalUrl": "https://tnema.maps.arcgis.com"
-    },
-    "dataSource_9": {
-      "id": "dataSource_9",
-      "type": "FEATURE_SERVICE",
-      "sourceLabel": "DOEFacilityStatusMapper_ESF5 view",
-      "itemId": "ef546b5985fe436f8d69099f79df7507",
-      "portalUrl": "https://tnema.maps.arcgis.com",
-      "url": "https://services1.arcgis.com/kILp9lqGUeOhnDbI/arcgis/rest/services/DOEFacilityStatusMapper_ESF5_view/FeatureServer"
     }
   },
   "appStateConfig": {
