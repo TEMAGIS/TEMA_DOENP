@@ -3393,10 +3393,23 @@
       },
       "label": "For Exercise",
       "config": {
-        "text": "<p><strong style=\"font-size: 26px;\">Exercise </strong><span style=\"font-size: 26px; color: var(--danger);\">ORNL ECL: </span><strong style=\"color: var(--danger); font-size: 26px;\"><exp data-uniqueid=\"ab2cd9e0_c7d2_09f8_e9c5_25e7464d5106\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{ornl_ecldeclared}﻿﻿﻿﻿﻿</span>﻿</exp>, </strong><span style=\"color: var(--danger); font-size: 26px;\">Y-12 ECL: </span><strong style=\"color: var(--danger); font-size: 26px;\"><exp data-uniqueid=\"cb1ed5f7_831b_f880_24b6_1f4eda501324\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7By12_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7By12_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22y12_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{y12_ecldeclared}﻿﻿﻿﻿﻿</span>﻿</exp>, </strong><span style=\"color: var(--danger); font-size: 26px;\">SEOC AL:</span><strong style=\"color: var(--danger); font-size: 26px;\"> <exp data-uniqueid=\"142b3a1d_462f_2927_114c_4926793f72a1\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{seocactivationlvl}﻿﻿﻿﻿﻿</span>﻿</exp> </strong><strong style=\"font-size: 26px;\">Exercise</strong></p>",
+        "text": "<p><strong style=\"font-size: 26px;\">Exercise </strong><span style=\"font-size: 26px; color: var(--danger);\">ORNL ECL: </span><strong style=\"font-size: 26px; color: var(--danger);\"><em><exp data-uniqueid=\"ab2cd9e0_c7d2_09f8_e9c5_25e7464d5106\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bornl_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22ornl_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{ornl_ecldeclared}﻿﻿﻿﻿﻿﻿</span>﻿</exp></em>, </strong><span style=\"font-size: 26px; color: var(--danger);\">Y-12 ECL: </span><strong style=\"font-size: 26px; color: var(--danger);\"><em><exp data-uniqueid=\"cb1ed5f7_831b_f880_24b6_1f4eda501324\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7By12_ecldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7By12_ecldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22y12_ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{y12_ecldeclared}﻿﻿﻿﻿﻿﻿</span>﻿</exp></em>, </strong><span style=\"font-size: 26px; color: var(--danger);\">SEOC AL:</span><strong style=\"font-size: 26px; color: var(--danger);\"> <em><exp data-uniqueid=\"142b3a1d_462f_2927_114c_4926793f72a1\" data-dsid=\"dataSource_9-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{seocactivationlvl}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </em></strong><strong style=\"font-size: 26px;\">Exercise</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
-          "wrap": true
+          "wrap": true,
+          "enableDynamicStyle": true,
+          "dynamicStyleConfig": {
+            "sourceType": "CONDITION",
+            "conditionConfig": {
+              "refValueInfo": {
+                "refValueSourceType": "IMPORT_FROM_DYNAMIC_CONTENT",
+                "expression": null,
+                "expressionReturnType": null
+              },
+              "items": []
+            },
+            "arcadeConfig": null
+          }
         },
         "tooltip": {
           "name": "",
@@ -3612,7 +3625,7 @@
       }
     }
   },
-  "timestamp": 1779990802698,
+  "timestamp": 1780402741091,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
